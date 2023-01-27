@@ -15,9 +15,9 @@ apt update
 apt install anydesk
 
 #Tweaks
-$ sudo apt install software-properties-common
-$ sudo add-apt-repository ppa:philip.scott/elementary-tweaks && sudo apt-get update
-$ sudo apt install elementary-tweaks
+sudo apt install software-properties-common
+sudo add-apt-repository ppa:philip.scott/elementary-tweaks && sudo apt-get update
+sudo apt install elementary-tweaks
 
 
 #Snapcraft
