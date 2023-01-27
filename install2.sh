@@ -57,6 +57,9 @@ sudo apt-add-repository 'deb https://download.opensuse.org/repositories/Emulator
 sudo apt install --install-recommends winehq-stable
 winecfg
 
+sudo apt-get install winetricks
+sudo apt-get install playonlinux
+
 #Anydesk
 wget -qO - https://keys.anydesk.com/repos/DEB-GPG-KEY | apt-key add -
 echo "deb http://deb.anydesk.com/ all main" > /etc/apt/sources.list.d/anydesk-stable.list
