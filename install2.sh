@@ -70,6 +70,9 @@ apt install anydesk
 sudo apt install kgamma5 kde-cli-tools
 kcmshell5 kgamma
 
+#Tahoma
+wget https://gist.githubusercontent.com/maxwelleite/913b6775e4e408daa904566eb375b090/raw/ttf-ms-tahoma-installer.sh -q -O - | sudo bash
+
 #Elementary OS TWEAKS
 
 #Tweaks
