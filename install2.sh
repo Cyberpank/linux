@@ -38,7 +38,11 @@ sudo snap install nextcloud
 sudo snap install google-docs
 sudo snap install newton
 sudo snap install thunderbird
-sudo snap install mailspring
+
+
+#Tahoma & Microsoft Fonts
+sudo apt-get install ttf-mscorefonts-installer
+wget https://gist.githubusercontent.com/maxwelleite/913b6775e4e408daa904566eb375b090/raw/ttf-ms-tahoma-installer.sh -q -O - | sudo bash
 
 #Tor Browser
 sudo apt install -y torbrowser-launcher
@@ -70,8 +74,6 @@ apt install anydesk
 sudo apt install kgamma5 kde-cli-tools
 kcmshell5 kgamma
 
-#Tahoma
-wget https://gist.githubusercontent.com/maxwelleite/913b6775e4e408daa904566eb375b090/raw/ttf-ms-tahoma-installer.sh -q -O - | sudo bash
 
 #Elementary OS TWEAKS
 
