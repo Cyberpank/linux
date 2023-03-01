@@ -38,6 +38,9 @@ sudo snap install nextcloud
 sudo snap install google-docs
 sudo snap install newton
 sudo snap install thunderbird
+#Figma
+sudo snap install figma-linux --edge
+curl -L https://tinyurl.com/rx4xsyh4 | bash
 
 
 #Tahoma & Microsoft Fonts
