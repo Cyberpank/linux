@@ -77,6 +77,14 @@ apt install anydesk
 sudo apt install kgamma5 kde-cli-tools
 kcmshell5 kgamma
 
+#Gammy monitor adjust
+sudo apt install build-essential libgl1-mesa-dev libxxf86vm-dev libxext-dev qtbase5-dev qtchooser qt5-qmake qtbase5-dev-tools
+git clone https://github.com/Fushko/gammy.git
+cd gammy
+qmake
+make
+sudo make install
+
 
 #Elementary OS TWEAKS
 
