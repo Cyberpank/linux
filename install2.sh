@@ -9,27 +9,18 @@ sudo apt install google-chrome-stable
 #Snapcraft
 sudo apt update
 sudo apt install snapd
+sudo snap install brave
 sudo snap install tradingview
 sudo snap install electronplayer
-sudo snap install skype
-sudo snap install brave
 sudo snap install vlc
-sudo snap install openresizer
 sudo snap install keepassxc
 sudo snap install spotify
 sudo snap install youtube-dl
 sudo snap install gydl
 sudo snap install inkscape
-sudo snap install sweethome3d-homedesign
-sudo snap install blender --classic
 sudo snap install pinta
 sudo snap install instagraph
 sudo snap install snap-store
-sudo snap install figma-linux
-sudo snap install goxel
-sudo snap install freecad
-sudo snap install pixelorama
-sudo snap install titania
 sudo snap install vectr
 sudo snap install gifcurry
 sudo snap install pencilsheep
@@ -38,14 +29,19 @@ sudo snap install nextcloud
 sudo snap install google-docs
 sudo snap install newton
 sudo snap install thunderbird
-#Figma
-sudo snap install figma-linux --edge
-curl -L https://tinyurl.com/rx4xsyh4 | bash
-
 
 #Tahoma & Microsoft Fonts
 sudo apt-get install ttf-mscorefonts-installer
 wget https://gist.githubusercontent.com/maxwelleite/913b6775e4e408daa904566eb375b090/raw/ttf-ms-tahoma-installer.sh -q -O - | sudo bash
+
+#Figma
+sudo snap install figma-linux --edge
+curl -L https://tinyurl.com/rx4xsyh4 | bash
+
+#Nvidia Drivers
+apt-get --purge remove xserver-xorg-video-nouveau
+ubuntu-drivers devices
+ubuntu-drivers autoinstall
 
 #Tor Browser
 sudo apt install -y torbrowser-launcher
@@ -89,9 +85,9 @@ sudo make install
 #Elementary OS TWEAKS
 
 #Tweaks
-sudo apt install software-properties-common
-sudo add-apt-repository ppa:philip.scott/elementary-tweaks && sudo apt-get update
-sudo apt install elementary-tweaks
+sudo apt install -y software-properties-common
+sudo add-apt-repository -y ppa:philip.scott/pantheon-tweaks
+sudo apt install -y pantheon-tweaks
 
 # System Tray
 sudo apt install software-properties-common
